@@ -1,3 +1,5 @@
+const daisyui = require("daisyui");
+
 module.exports = {
   content: [
     "./index.html",
@@ -10,5 +12,5 @@ module.exports = {
       center: true,
     },
   },
-  plugins: [],
+  plugins: [daisyui],
 };
