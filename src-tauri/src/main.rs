@@ -69,6 +69,7 @@ fn main() {
         .expect("error while running tauri application");
 }
 
+
 fn menu_handle(app_handle: &tauri::AppHandle, event: SystemTrayEvent) {
     match event {
         SystemTrayEvent::LeftClick {
